@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Stack;
 public class Permutation {
 	public static void main(String[] args) {
 		System.out.println("Enter your word.");
@@ -7,7 +7,6 @@ public class Permutation {
 		String word = scanner.nextLine();
 		System.out.println("All possible permutations are:");
 		permutateWord("",word);
-		permutateWordIterative(word);
 		scanner.close();
 
 	}
@@ -24,5 +23,4 @@ public class Permutation {
 		}
 		return;
 	}
-
 }
