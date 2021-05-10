@@ -21,6 +21,5 @@ public class Permutation {
 				permutateWord(firstLetters+word.charAt(i),restOfWord);
 			}	
 		}
-		return;
 	}
 }
